@@ -1,9 +1,6 @@
 # Define the name of the workflow
 name: test.yml
 
-# Use the `push-trigger.yml` template
-extends: bbhupati/GH-CICDTemplates/commons/push-trigger.yml@master
-
 # Define the event triggers for the workflow
 on:
   push:
