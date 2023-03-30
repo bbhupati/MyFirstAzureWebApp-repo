@@ -2,7 +2,7 @@
 name: test.yml
 
 # Use the `push-trigger.yml` template
-extends: .github/workflows/push-trigger.yml@v1.0
+extends: bbhupati/GH-CICDTemplates/.github/workflows/push-trigger.yml@v1.0
 
 jobs:
   build:
