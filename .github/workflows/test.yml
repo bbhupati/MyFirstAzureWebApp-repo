@@ -6,7 +6,7 @@ name: Main Workflow for Build and deploy ASP.Net Core app to Azure Web App
 
 jobs:
   build:
-    uses: bbhupati/GH-CICDTemplates/.github/workflows/build.yml
+    uses: bbhupati/GH-CICDTemplates/.github/workflows/build.yml@v1.0
 
   deploy:
-    uses: bbhupati/GH-CICDTemplates/.github/workflows/deploy.yml
+    uses: bbhupati/GH-CICDTemplates/.github/workflows/deploy.yml@v1.0
