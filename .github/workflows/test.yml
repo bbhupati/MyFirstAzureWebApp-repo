@@ -2,7 +2,7 @@
 name: test.yml
 
 # Use the `push-trigger.yml` template
-extends: bbhupati/GH-CICDTemplates/.github/workflows/push-trigger.yml@master
+extends: bbhupati/GH-CICDTemplates/commons/push-trigger.yml@master
 
 # Define the event triggers for the workflow
 on:
@@ -16,7 +16,7 @@ on:
 
 jobs:
   build:
-    uses: bbhupati/GH-CICDTemplates/.github/workflows/build.yml@master
+    uses: bbhupati/GH-CICDTemplates/templates/build.yml@master
 
   deploy:
-    uses: bbhupati/GH-CICDTemplates/.github/workflows/deploy.yml@master
+    uses: bbhupati/GH-CICDTemplates/templates/deploy.yml@master
