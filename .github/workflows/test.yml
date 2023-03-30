@@ -1,5 +1,5 @@
 # Use the `push-trigger.yml` template
-extends: bbhupati/GH-CICDTemplates/.github/workflows/push-trigger.yml@v1.0
+extends: .github/workflows/push-trigger.yml@v1.0
 
 # Define the name of the workflow
 name: Main Workflow for Build and deploy ASP.Net Core app to Azure Web App
