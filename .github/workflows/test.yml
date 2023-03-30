@@ -4,6 +4,15 @@ name: test.yml
 # Use the `push-trigger.yml` template
 extends: bbhupati/GH-CICDTemplates/.github/workflows/push-trigger.yml@v1.0
 
+# Define the event triggers for the workflow
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - '*'
+
 jobs:
   build:
     uses: bbhupati/GH-CICDTemplates/.github/workflows/build.yml@v1.0
