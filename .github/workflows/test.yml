@@ -16,7 +16,7 @@ on:
 
 jobs:
   build:
-    uses: bbhupati/GH-CICDTemplates/templates/build.yml@master
+    uses: bbhupati/GH-CICDTemplates/.github/workflows/build.yml@master
 
   deploy:
-    uses: bbhupati/GH-CICDTemplates/templates/deploy.yml@master
+    uses: bbhupati/GH-CICDTemplates/.github/workflows/deploy.yml@master
